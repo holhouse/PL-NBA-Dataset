@@ -25,7 +25,7 @@ The dataset retains the complete temporal logic of offensive possessions and pro
 ## Data Access
 We have uploaded the complete annotation files of the PL-NBA dataset to this GitHub repository✅. For the video data, you can choose to download the original NBA game🏀 videos on your own, as our annotations include detailed game information to help you locate and process the corresponding footage. If you are unable to download the original videos, you can send an email to holhouse@emails.bjut.edu.cn to obtain the pre-trimmed video clips we have processed.
 
-⭐️**Important Note**: This dataset is strictly limited to scientific research use only. ⚠⚠Any commercial utilization of the dataset is prohibited⚠⚠.
+⭐️**Important Note**: This dataset is strictly limited to scientific research use only. 🙅‍🚫Any commercial utilization of the dataset is prohibited🙅‍🚫
 
 ## Fine-grained Event Recognition
 **Fine-grained Event Recognition** is a **novel video understanding task** tailored for the **PL-NBA dataset** that targets sequential event perception in complete basketball offensive possessions. Unlike conventional event recognition that only identifies single independent actions, this task aims to detect and classify all sub-events in chronological order within a full offensive possession, including their types and corresponding outcomes, while retaining the complete temporal causal relationship and tactical logic of the game. It evaluates model performance from two critical dimensions: possession-level accuracy (whether all sub-events in a possession are fully and correctly identified) and event-level accuracy (the ratio of correctly recognized sub-events to the total number of sub-events), which poses higher requirements for models’ long-sequence video modeling capability and fine-grained multi-event linkage perception ability, and provides a new evaluation paradigm for tactical-oriented basketball video analysis.
@@ -36,5 +36,12 @@ We have uploaded the complete annotation files of the PL-NBA dataset to this Git
 </div>
 
 This experiment conducts verification for possession-level successive event recognition based on the PL-NBA dataset, aiming to evaluate the model's sequential perception capability of temporal sub-events within complete basketball offensive possessions. We select 200 finely annotated offensive possession samples (containing 892 sub-events) from the dataset, adopt the Gemini Pro vision-language model as the baseline, and directly input the complete possession videos under the zero-shot and no extra fine-tuning setting. Event recognition is accomplished relying on the model's long-sequence understanding and multimodal reasoning capabilities.
+
+
+<div align="center">
+  <img src="image/result.png" width="85%" alt="Method Overview">
+  <br>
+</div>
+
 The experiment is evaluated from two dimensions: possession-level and event-level. The possession-level accuracy judges whether all sub-events in a single possession are completely and correctly identified, while the event-level accuracy calculates the overall correct recognition rate of sub-events. The final experimental results show that the possession-level full-matching accuracy is 27.00% and the event-level recognition accuracy reaches 60.76%, which verifies the effectiveness of large models in event perception for long-sequence basketball videos, and also reveals that there is still large room for optimization in successive event recognition under scenarios such as fast-paced offense and intensive passing and cutting.
 
