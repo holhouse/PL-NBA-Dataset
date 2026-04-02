@@ -23,9 +23,10 @@ The dataset retains the complete temporal logic of offensive possessions and pro
 🚩 **Open-source and academic friendly**: Released under CC BY-NC 4.0 license, free for academic research, with standard data splits and preprocessing subsets!
 
 ## Data Access
-We have uploaded the complete annotation files of the PL-NBA dataset to this GitHub repository✅. For the video data, you can choose to download the original NBA game🏀 videos on your own, as our annotations include detailed game information to help you locate and process the corresponding footage. If you are unable to download the original videos, you can send an email to holhouse@emails.bjut.edu.cn to obtain the pre-trimmed video clips we have processed.
+We have uploaded the complete annotation files of the PL-NBA dataset to this GitHub repository✅. 
+For the video data, you can choose to download the original NBA game🏀 videos on your own, as our annotations include detailed game information to help you locate and process the corresponding footage. If you are unable to download the original videos, you can send an email to holhouse@emails.bjut.edu.cn to obtain the pre-trimmed video clips we have processed.
 
-⭐️**Important Note**: This dataset is strictly limited to scientific research use only. 🙅‍🚫Any commercial utilization of the dataset is prohibited🙅‍🚫
+⭐️**Important Note**: This dataset is strictly limited to scientific research use only. 🚫**Any commercial utilization of the dataset is prohibited**🚫
 
 ## Fine-grained Event Recognition
 **Fine-grained Event Recognition** is a **novel video understanding task** tailored for the **PL-NBA dataset** that targets sequential event perception in complete basketball offensive possessions. Unlike conventional event recognition that only identifies single independent actions, this task aims to detect and classify all sub-events in chronological order within a full offensive possession, including their types and corresponding outcomes, while retaining the complete temporal causal relationship and tactical logic of the game. It evaluates model performance from two critical dimensions: possession-level accuracy (whether all sub-events in a possession are fully and correctly identified) and event-level accuracy (the ratio of correctly recognized sub-events to the total number of sub-events), which poses higher requirements for models’ long-sequence video modeling capability and fine-grained multi-event linkage perception ability, and provides a new evaluation paradigm for tactical-oriented basketball video analysis.
