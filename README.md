@@ -2,8 +2,9 @@
 
 ## Project Introduction
 PL-NBA is the first possession-level basketball video dataset for multi-task sports visual understanding. Most existing basketball datasets only annotate isolated single events, which cannot preserve the temporal continuity and tactical context of real games, and cannot support complex tasks such as action anticipation and tactical analysis.
+
 <div align="center">
-  < img src="image/image-1.jpg" width="85%" alt="Method Overview">
+  <img src="image/image-1.jpg" width="85%" alt="Method Overview">
   <br>
 </div>
 
