@@ -24,6 +24,7 @@ The dataset retains the complete temporal logic of offensive possessions and pro
 
 ## Data Access
 We have uploaded the complete annotation files of the PL-NBA dataset to this GitHub repository✅. 
+
 For the video data, you can choose to download the original NBA game🏀 videos on your own, as our annotations include detailed game information to help you locate and process the corresponding footage. If you are unable to download the original videos, you can send an email to holhouse@emails.bjut.edu.cn to obtain the pre-trimmed video clips we have processed.
 
 ⭐️**Important Note**: This dataset is strictly limited to scientific research use only. 🚫**Any commercial utilization of the dataset is prohibited**🚫
@@ -40,7 +41,7 @@ This experiment conducts verification for possession-level successive event reco
 
 
 <div align="center">
-  <img src="image/result.png" width="85%" alt="Method Overview">
+  <img src="image/result.jpg" width="85%" alt="Method Overview">
   <br>
 </div>
 
