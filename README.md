@@ -2,7 +2,10 @@
 
 ## Project Introduction
 PL-NBA is the first possession-level basketball video dataset for multi-task sports visual understanding. Most existing basketball datasets only annotate isolated single events, which cannot preserve the temporal continuity and tactical context of real games, and cannot support complex tasks such as action anticipation and tactical analysis.
-![Uploading MM1.jpg…]()
+<div align="center">
+  < img src="image/image-1.jpg" width="85%" alt="Method Overview">
+  <br>
+</div>
 
 PL-NBA is collected from 40 official NBA games (2022–2025 season), covering all 30 NBA teams. It contains 7,000+ complete offensive possession clips (average 12.11s) and 30,000+ fine-grained annotated events, with rich annotations including event type, player name, timestamp, event outcome and textual caption.
 
