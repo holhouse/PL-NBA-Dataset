@@ -47,3 +47,5 @@ This experiment conducts verification for possession-level successive event reco
 
 The experiment is evaluated from two dimensions: possession-level and event-level. The possession-level accuracy judges whether all sub-events in a single possession are completely and correctly identified, while the event-level accuracy calculates the overall correct recognition rate of sub-events. The final experimental results show that the possession-level full-matching accuracy is 27.00% and the event-level recognition accuracy reaches 60.76%, which verifies the effectiveness of large models in event perception for long-sequence basketball videos, and also reveals that there is still large room for optimization in successive event recognition under scenarios such as fast-paced offense and intensive passing and cutting.
 
+## Fine-grained Video Caption
+Comming Soon!
