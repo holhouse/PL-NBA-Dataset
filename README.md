@@ -41,7 +41,7 @@ This experiment conducts verification for possession-level successive event reco
 
 
 <div align="center">
-  <img src="image/result.jpg" width="85%" alt="Method Overview">
+  <img src="image/result.jpg" width="50%" alt="Method Overview">
   <br>
 </div>
 
