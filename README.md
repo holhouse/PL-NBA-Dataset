@@ -31,7 +31,7 @@ We have uploaded the complete annotation files of the PL-NBA dataset to this Git
 **Fine-grained Event Recognition** is a **novel video understanding task** tailored for the **PL-NBA dataset** that targets sequential event perception in complete basketball offensive possessions. Unlike conventional event recognition that only identifies single independent actions, this task aims to detect and classify all sub-events in chronological order within a full offensive possession, including their types and corresponding outcomes, while retaining the complete temporal causal relationship and tactical logic of the game. It evaluates model performance from two critical dimensions: possession-level accuracy (whether all sub-events in a possession are fully and correctly identified) and event-level accuracy (the ratio of correctly recognized sub-events to the total number of sub-events), which poses higher requirements for models’ long-sequence video modeling capability and fine-grained multi-event linkage perception ability, and provides a new evaluation paradigm for tactical-oriented basketball video analysis.
 
 <div align="center">
-  <img src="image/image-3.jpg" width="85%" alt="Method Overview">
+  <img src="image/image-4.jpg" width="85%" alt="Method Overview">
   <br>
 </div>
 
