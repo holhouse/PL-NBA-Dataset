@@ -28,9 +28,9 @@ The dataset retains the complete temporal logic of offensive possessions and pro
 🚩 **Open-source and academic friendly**: Released under CC BY-NC 4.0 license, free for academic research, with standard data splits and preprocessing subsets!
 
 ## Data Access
-We have uploaded the complete annotation files of the PL-NBA dataset to this GitHub repository✅. 
+We have uploaded the annotation files of the PL-NBA dataset to this GitHub repository ✅ PL-NBA-JSON.zip ✅.
 
-For the video data, you can choose to download the original NBA game🏀 videos on your own, as our annotations include detailed game information to help you locate and process the corresponding footage. If you are unable to download the original videos,https://pan.baidu.com/s/1jlB-cpXSjEnyEbv53gsf-w?pwd=pnba， you can send an email to holhouse@emails.bjut.edu.cn to obtain the pre-trimmed video clips we have processed.
+For the video data, you may download the original NBA game 🏀 videos on your own. Our annotation files contain detailed game information to help you locate and process the corresponding video clips. If you are unable to download the original videos, you can obtain the pre-trimmed video clips we have processed via the link (Baidu Netdisk link: https://pan.baidu.com/s/1jlB-cpXSjEnyEbv53gsf-w?pwd=pnba). Should you encounter any issues with the link or the dataset, please send an email to holhouse@emails.bjut.edu.cn.
 
 ⭐️**Important Note**: This dataset is strictly limited to scientific research use only. 🚫**Any commercial utilization of the dataset is prohibited**🚫
 
